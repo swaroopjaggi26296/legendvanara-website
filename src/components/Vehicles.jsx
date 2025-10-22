@@ -1,18 +1,24 @@
 import React from 'react';
 import { Car } from 'lucide-react';
+import sedanImg from "../components/images/Sedan.jpg";
+import innoImg from "../components/images/Innova.jpg";
+import ttImg from "../components/images/TT_AC.jpg";
+import ttacImg from "../components/images/TT_non_AC.jpg";
+import minibusImg from "../components/images/miniBus.jpg";
+import busImg from "../components/images/Bus.jpg";
 
 const vehicles = [
   {
     name: 'Sedan',
     price: '12',
     capacity: '4 passengers',
-    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80&w=800',
+    image: sedanImg,
   },
   {
     name: 'SUV Innova',
     price: '16',
     capacity: '6-7 passengers',
-    image: 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&q=80&w=800',
+    image: innoImg,
   },
   {
     name: 'SUV Crysta',
@@ -24,25 +30,23 @@ const vehicles = [
     name: 'Tempo Traveller (Non AC)',
     price: '18',
     capacity: '12-14 passengers',
-    image: 'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&q=80&w=800',
+    image: ttImg,
   },
   {
     name: 'Tempo Traveller (AC)',
     price: '20',
     capacity: '12-14 passengers',
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800',
+    image: ttacImg,
   },
   {
     name: 'Mini Bus',
-    price: '25',
     capacity: '20-25 passengers',
-    image: 'https://images.unsplash.com/photo-1544620282-1f429bbe9676?auto=format&fit=crop&q=80&w=800',
+    image: minibusImg,
   },
   {
     name: 'Bus',
-    price: '35',
     capacity: '35-45 passengers',
-    image: 'https://images.unsplash.com/photo-1570125909517-53cb21c89ff2?auto=format&fit=crop&q=80&w=800',
+    image: busImg,
   },
 ];
 
@@ -91,7 +95,7 @@ const Vehicles = () => {
           <ul className="space-y-2 text-gray-700">
             <li>• All vehicles come with experienced and professional drivers</li>
             <li>• Prices are per kilometer and exclude tolls, parking, and driver allowance</li>
-            <li>• Minimum booking of 250 km per day applies for outstation trips</li>
+            <li>• Minimum booking of 300 km per day applies for outstation trips</li>
             <li>• All vehicles are regularly maintained and sanitized</li>
           </ul>
         </div>
