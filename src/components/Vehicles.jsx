@@ -42,7 +42,7 @@ const vehicles = [
   },
   {
     name: 'Urbania ',
-    price:'contact us',
+    price:'40',
     capacity: '16+1 seater',
     image: urbImg,
   },
