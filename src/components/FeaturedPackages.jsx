@@ -61,7 +61,7 @@ const packages = [
     rating: 5,
     reviews: 245,
     duration: '3N/4D',
-    price: 26999,
+    price: 'Contact Us',
     image: temple,
     highlights: ['Tirupati', 'Dharmashatala', 'Srikalahasti','Tiruvannamalai'],
   },
