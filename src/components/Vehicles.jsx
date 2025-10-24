@@ -91,8 +91,10 @@ const Vehicles = () => {
                 <p className="text-gray-600 mb-4">{vehicle.capacity}</p>
                 <div className="flex items-end justify-between">
                   <div>
-                    <span className="text-3xl font-bold text-orange-500">₹{vehicle.price}</span>
-                    <span className="text-gray-600">/km</span>
+                    <span className="text-1xl font-bold text-orange-500">contact us for the Price</span>
+                    
+                    {/* <span className="text-3xl font-bold text-orange-500">₹{vehicle.price}</span>
+                    <span className="text-gray-600">/km</span> */}
                   </div>
                 </div>
               </div>
