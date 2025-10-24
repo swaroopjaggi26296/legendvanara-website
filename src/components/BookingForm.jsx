@@ -162,7 +162,8 @@ const BookingForm = () => {
               <SelectContent>
                 {vehicles.map((vehicle, index) => (
                   <SelectItem key={index} value={vehicle.name}>
-                    {vehicle.name} - {vehicle.capacity} - ₹{vehicle.price}/km
+                    {vehicle.name} - {vehicle.capacity} 
+                    {/*- ₹{vehicle.price}/km */}
                     </SelectItem>
                   ))}
                   </SelectContent>
