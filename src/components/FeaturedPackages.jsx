@@ -137,12 +137,12 @@ const FeaturedPackages = ({ showAll = false }) => {
                 </div>
 
                 <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                  <div>
+                  { /*<div>
                     <span className="text-3xl font-bold text-gray-900">₹{pkg.price.toLocaleString()}</span>
-                  </div>
+                  </div> */ }
                   <Link to="/book-now">
                     <Button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg transition-all hover:scale-105">
-                      Book Now
+                      Contact Us for the Price
                     </Button>
                   </Link>
                 </div>
