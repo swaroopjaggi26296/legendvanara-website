@@ -13,7 +13,7 @@ const packages = [
   {
     id: 1,
     name: 'Royal Mysore Getaway',
-    location: 'Mysuru',
+    location: 'Mysuru-BookNow',
     rating: 5,
     reviews: 200,
     duration: '1 Day',
@@ -24,7 +24,7 @@ const packages = [
   {
     id: 2,
     name: 'Ooty Magic - The Queen of Hills Awaits',
-    location: 'Ooty',
+    location: 'Ooty-BookNow',
     rating: 4.9,
     reviews: 203,
     duration: '2N/3D',
@@ -35,7 +35,7 @@ const packages = [
   {
     id: 3,
     name: 'Coorg Royal Escape',
-    location: 'Coorg/Madikeri',
+    location: 'Madikeri-BookNow',
     rating: 4.9,
     reviews: 200,
     duration: '2N/3D',
@@ -46,7 +46,7 @@ const packages = [
   {
     id: 4,
     name: 'Wayanad Wilderness Retreat',
-    location: 'Wayanad Kerala',
+    location: 'Wayanad Kerala-BookNow',
     rating: 4.9,
     reviews: 220,
     duration: '2N/3D',
@@ -57,7 +57,7 @@ const packages = [
   {
     id: 5,
     name: 'Sacred Temples of the South',
-    location: 'South temples',
+    location: 'South temples-BookNow',
     rating: 5,
     reviews: 245,
     duration: '3N/4D',
@@ -68,7 +68,7 @@ const packages = [
   {
     id: 6,
     name: 'Custom - Your Trip, Your Way',
-    location: 'Anywhere you like to plan',
+    location: 'Anywhere you like to plan-BookNow',
     rating: 4.9,
     reviews: 198,
     duration: 'Depend on trip',
