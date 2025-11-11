@@ -19,13 +19,13 @@ const vehicles = [
   {
     name: 'SUV Innova',
     price: '16',
-    capacity: '6+1 seater',
+    capacity: '7+1 seater',
     image: innoImg,
   },
   {
     name: 'SUV Crysta',
     price: '18',
-    capacity: '6+1 seater',
+    capacity: '7+1 seater',
     image: cryImg,
   },
   {
@@ -55,7 +55,7 @@ const vehicles = [
   {
     name: 'Bus',
     price:'contact us',
-    capacity: '35-55 seater',
+    capacity: '35-50 seater',
     image: busImg,
   },
 ];
