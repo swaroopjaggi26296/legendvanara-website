@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from './ui/button';
 import { Label } from './ui/label';
 import { Input } from './ui/input';
@@ -15,18 +15,28 @@ import { packages } from './FeaturedPackages';
 import { vehicles } from './Vehicles';
 import { Send } from 'lucide-react';
 
-const BookingForm = () => {
+const BookingForm = ({ selectedPackage = null }) => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     vehicleName: '',
-    packageName: '',
+    packageName: selectedPackage || '',
     travelDate: '',
     numberOfPeople: '',
     additionalInfo: '',
   });
+
+  // Update package name when selectedPackage prop changes
+  useEffect(() => {
+    if (selectedPackage) {
+      setFormData((prev) => ({
+        ...prev,
+        packageName: selectedPackage,
+      }));
+    }
+  }, [selectedPackage]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
