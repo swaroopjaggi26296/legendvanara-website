@@ -19,7 +19,7 @@ const packageDetails = {
   1: {
     id: 1,
     name: 'Royal Mysore Getaway',
-    location: 'Mysuru',
+    location: 'Mysuru-BookNow',
     duration: '1 Day',
     estimatedKm: 600,
     limit: 396,
@@ -38,7 +38,7 @@ const packageDetails = {
   2: {
     id: 2,
     name: 'Ooty Magic - The Queen of Hills Awaits',
-    location: 'Ooty',
+    location: 'Ooty-BookNow',
     duration: '2N/3D',
     estimatedKm: 900,
     limit: 900,
@@ -59,7 +59,7 @@ const packageDetails = {
   3: {
     id: 3,
     name: 'Coorg Royal Escape',
-    location: 'Coorg/Madikeri',
+    location: 'Madikeri-BookNow',
     duration: '2N/3D',
     estimatedKm: 850,
     limit: 900,
@@ -79,7 +79,7 @@ const packageDetails = {
   4: {
     id: 4,
     name: 'Wayanad Wilderness Retreat',
-    location: 'Wayanad Kerala',
+    location: 'Wayanad Kerala-BookNow',
     duration: '2N/3D',
     estimatedKm: 950,
     limit: 900,
@@ -100,7 +100,7 @@ const packageDetails = {
   5: {
     id: 5,
     name: 'Sacred Temples of the South',
-    location: 'Multi-city Temple Tour',
+    location: 'Multi-city Temple Tour-BookNow',
     duration: '3N/4D',
     estimatedKm: 1200,
     limit: 1200,
@@ -118,7 +118,7 @@ const packageDetails = {
   6: {
     id: 6,
     name: 'Custom - Your Trip, Your Way',
-    location: 'Anywhere you like to plan',
+    location: 'Anywhere you like to plan-BookNow',
     duration: 'Flexible',
     estimatedKm: 'Custom',
     image: require('../components/images/custom.jpg'),
