@@ -57,7 +57,7 @@ const packages = [
   {
     id: 5,
     name: 'Sacred Temples of the South',
-    location: '',
+    location: 'South temples',
     rating: 5,
     reviews: 245,
     duration: '3N/4D',
@@ -140,9 +140,9 @@ const FeaturedPackages = ({ showAll = false }) => {
                   { /*<div>
                     <span className="text-3xl font-bold text-gray-900">₹{pkg.price.toLocaleString()}</span>
                   </div> */ }
-                  <Link to="/book-now">
+                  <Link to={`/package/${pkg.id}`}>
                     <Button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg transition-all hover:scale-105">
-                      Contact Us for the Price
+                      {pkg.location || 'View Details'}
                     </Button>
                   </Link>
                 </div>
