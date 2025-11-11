@@ -201,7 +201,7 @@ const vehicles = [
     image: minibusImg,
   },
   {
-    name: 'Bus (35 - 55 seater)',
+    name: 'Bus (35 - 50 seater)',
     image: busImg,
   },
 ];
