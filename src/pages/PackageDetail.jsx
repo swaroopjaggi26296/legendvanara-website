@@ -140,8 +140,8 @@ const packagePricing = {
     kmLimit: 396,
     vehicles: {
       'Sedan (4 seater)': 5499,
-      'SUV Innova (6+1)': 7499,
-      'SUV Crysta (6+1)': 7999,
+      'SUV Innova (7+1)': 7499,
+      'SUV Crysta (7+1)': 7999,
       'TT (12+1)': 8499,
     }
   },
@@ -149,8 +149,8 @@ const packagePricing = {
     kmLimit: 900,
     vehicles: {
       'Sedan (4 seater)': 13499,
-      'SUV Innova (6+1)': 18499,
-      'SUV Crysta (6+1)': 20499,
+      'SUV Innova (7+1)': 18499,
+      'SUV Crysta (7+1)': 20499,
       'TT (12+1)': 23499,
     }
   },
@@ -158,8 +158,8 @@ const packagePricing = {
     kmLimit: 900,
     vehicles: {
       'Sedan (4 seater)': 13999,
-      'SUV Innova (6+1)': 17499,
-      'SUV Crysta (6+1)': 19499,
+      'SUV Innova (7+1)': 17499,
+      'SUV Crysta (7+1)': 19499,
       'TT (12+1)': 20999,
     }
   },
@@ -167,8 +167,8 @@ const packagePricing = {
     kmLimit: 900,
     vehicles: {
       'Sedan (4 seater)': 14499,
-      'SUV Innova (6+1)': 19999,
-      'SUV Crysta (6+1)': 21999,
+      'SUV Innova (7+1)': 19999,
+      'SUV Crysta (7+1)': 21999,
       'TT (12+1)': 25499,
     }
   },
@@ -181,11 +181,11 @@ const vehicles = [
     image: sedanImg,
   },
   {
-    name: 'SUV Innova (6+1)',
+    name: 'SUV Innova (7+1)',
     image: innoImg,
   },
   {
-    name: 'SUV Crysta (6+1)',
+    name: 'SUV Crysta (7+1)',
     image: cryImg,
   },
   {
