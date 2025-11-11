@@ -1,9 +1,13 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import BookingForm from '../components/BookingForm';
 import Footer from '../components/Footer';
 
 const BookNow = () => {
+  const location = useLocation();
+  const selectedPackage = location.state?.selectedPackage || null;
+  
   return (
     <div className="book-now-page">
       <Navbar />
@@ -12,7 +16,7 @@ const BookNow = () => {
           <div className="max-w-3xl mx-auto">
             <h1 className="text-4xl font-bold text-center mb-4">Book Your Trip</h1>
             <p className="text-center text-gray-600 mb-8">Fill out the form below and we'll get back to you via WhatsApp</p>
-            <BookingForm />
+            <BookingForm selectedPackage={selectedPackage} />
           </div>
         </div>
       </div>
