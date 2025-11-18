@@ -5,12 +5,14 @@ import Vehicles from './pages/Vehicles';
 import Packages from './pages/Packages';
 import BookNow from './pages/BookNow';
 import PackageDetail from './pages/PackageDetail';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/vehicles" element={<Vehicles />} />
