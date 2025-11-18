@@ -1,5 +1,7 @@
 import React from 'react';
 import { Car } from 'lucide-react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import sedanImg from "../components/images/Sedan.jpg";
 import innoImg from "../components/images/Toyota-Innova.jpg";
 import cryImg from "../components/images/innova-crysta.jpg";
@@ -54,6 +56,8 @@ const vehicles = [
 
 const Vehicles = () => {
   return (
+    <>
+    <Navbar />
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
@@ -102,6 +106,8 @@ const Vehicles = () => {
         </div>
       </div>
     </section>
+    <Footer />
+    </>
   );
 };
 
