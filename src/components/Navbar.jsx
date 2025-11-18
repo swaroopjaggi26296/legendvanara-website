@@ -122,11 +122,18 @@ const Navbar = () => {
                 Book Now
               </Link>
               <a
-                href="tel:+919449449510"
+                href="tel:+919620238565"
                 className="flex items-center space-x-2 font-medium text-gray-700"
               >
                 <Phone className="w-4 h-4" />
-                <span>+91 9449449510</span>
+                <span>+91 9620238565</span>
+              </a>
+              <a
+                href="tel:+919663753251"
+                className="flex items-center space-x-2 font-medium text-gray-700"
+              >
+                <Phone className="w-4 h-4" />
+                <span>+91 9663753251</span>
               </a>
             </div>
           </div>
