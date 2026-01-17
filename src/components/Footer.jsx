@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-orange-500 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">JP nagar,6th Phase,Bengaluru, Karnataka, India</span>
+                <span className="text-gray-400">Naidu Layout, Rajiv Gandhi Road, Jaraganahalli, JP Nagar, Bangalore - 560078</span>
               </li>
             </ul>
           </div>
@@ -108,7 +108,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 LegendVanara Travels & Holidays. All rights reserved.
+            © 2025 LegendVanara Travels & Holidays. All rights reserved.
           </p>
         </div>
       </div>
