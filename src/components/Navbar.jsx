@@ -69,6 +69,10 @@ const Navbar = () => {
             <a href="tel:+919663753251" className="font-medium hover:text-orange-500 transition-colors">
               +91 9663753251 
             </a>
+            <Phone className="w-4 h-4" />
+            <a href="tel:+919844999279" className="font-medium hover:text-orange-500 transition-colors">
+              +91 9844999279
+            </a>
           </div>
           
 
